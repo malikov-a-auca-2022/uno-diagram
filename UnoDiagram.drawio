@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-12T18:45:39.104Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/118.0" etag="AAme3Ws9QUd-xV8k9XFG" version="22.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-12T20:08:56.881Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/118.0" etag="q6mzlk1tyRG0KJUfqcaW" version="22.1.0" type="github">
   <diagram name="Page-1" id="uRHE72ZGrTwrVCCyfpTb">
     <mxGraphModel dx="1147" dy="639" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -95,6 +95,15 @@
         </mxCell>
         <mxCell id="vxuCkzHxp4fSkfn-FGB5-2" value="&lt;div&gt;BotPlayer&lt;/div&gt;&lt;div&gt;&lt;div&gt;playCard(int ind) //ind will not be used&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="180" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vxuCkzHxp4fSkfn-FGB5-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vxuCkzHxp4fSkfn-FGB5-14" target="vxuCkzHxp4fSkfn-FGB5-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vxuCkzHxp4fSkfn-FGB5-14" value="&lt;div&gt;abstract CardEffect class&lt;/div&gt;applyEffect(GameState)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="500" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vxuCkzHxp4fSkfn-FGB5-15" value="&lt;div&gt;SkipTurnEffect class&lt;/div&gt;&lt;div&gt;ReverseEffect class etc.&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="580" width="150" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
