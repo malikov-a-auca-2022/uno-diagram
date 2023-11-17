@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-17T05:52:57.611Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="rA0mBE2Rx8jVJH79pEwl" version="22.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-17T06:01:36.614Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="kDY6GJkNNuOIeszqCenK" version="22.1.2" type="github">
   <diagram name="Page-1" id="uRHE72ZGrTwrVCCyfpTb">
     <mxGraphModel dx="1374" dy="1867" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -22,16 +22,8 @@
         <mxCell id="pOPxgLZI2hBHOR72AEu_-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Htw38UbW4cMCED8sRSsI-2" target="vxuCkzHxp4fSkfn-FGB5-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="pOPxgLZI2hBHOR72AEu_-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Htw38UbW4cMCED8sRSsI-2" target="pOPxgLZI2hBHOR72AEu_-1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="165" y="200" />
-              <mxPoint x="390" y="200" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="Htw38UbW4cMCED8sRSsI-2" value="&lt;div&gt;abstract? Player class&lt;br&gt;&lt;/div&gt;&lt;div&gt;hand: Hand&lt;/div&gt;&lt;div&gt;playCard(int ind)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="10" y="120" width="310" height="70" as="geometry" />
+          <mxGeometry x="80" y="120" width="170" height="70" as="geometry" />
         </mxCell>
         <mxCell id="pOPxgLZI2hBHOR72AEu_-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Htw38UbW4cMCED8sRSsI-5" target="Htw38UbW4cMCED8sRSsI-6">
           <mxGeometry relative="1" as="geometry">
@@ -101,7 +93,7 @@
         <mxCell id="pOPxgLZI2hBHOR72AEu_-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vxuCkzHxp4fSkfn-FGB5-14" target="pOPxgLZI2hBHOR72AEu_-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vxuCkzHxp4fSkfn-FGB5-14" value="&lt;div&gt;abstract CardEffect class&lt;/div&gt;applyEffect(GameState)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="vxuCkzHxp4fSkfn-FGB5-14" value="&lt;div&gt;abstract CardEffect class&lt;/div&gt;applyEffect(GameState&amp;amp;)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="561" y="340" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vxuCkzHxp4fSkfn-FGB5-15" value="&lt;div&gt;SkipTurnEffect class&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
