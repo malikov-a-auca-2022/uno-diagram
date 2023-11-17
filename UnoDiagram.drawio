@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-12T20:08:56.881Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/118.0" etag="q6mzlk1tyRG0KJUfqcaW" version="22.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-17T05:08:03.512Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="pnd6T8IxUViqlETLYop7" version="22.1.2" type="github">
   <diagram name="Page-1" id="uRHE72ZGrTwrVCCyfpTb">
-    <mxGraphModel dx="1147" dy="639" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1374" dy="767" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -16,13 +16,13 @@
         <mxCell id="Htw38UbW4cMCED8sRSsI-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Htw38UbW4cMCED8sRSsI-1" target="Htw38UbW4cMCED8sRSsI-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Htw38UbW4cMCED8sRSsI-1" value="Model" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="Htw38UbW4cMCED8sRSsI-1" value="GameState" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="360" y="30" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="vxuCkzHxp4fSkfn-FGB5-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Htw38UbW4cMCED8sRSsI-2" target="vxuCkzHxp4fSkfn-FGB5-1">
+        <mxCell id="vxuCkzHxp4fSkfn-FGB5-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Htw38UbW4cMCED8sRSsI-2" target="vxuCkzHxp4fSkfn-FGB5-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vxuCkzHxp4fSkfn-FGB5-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Htw38UbW4cMCED8sRSsI-2" target="vxuCkzHxp4fSkfn-FGB5-2">
+        <mxCell id="vxuCkzHxp4fSkfn-FGB5-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Htw38UbW4cMCED8sRSsI-2" target="vxuCkzHxp4fSkfn-FGB5-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Htw38UbW4cMCED8sRSsI-2" value="&lt;div&gt;abstract? Player class&lt;br&gt;&lt;/div&gt;&lt;div&gt;hand: Hand&lt;/div&gt;&lt;div&gt;playCard(int ind)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -40,7 +40,7 @@
         <mxCell id="Htw38UbW4cMCED8sRSsI-6" value="&lt;div&gt;Card class&lt;/div&gt;&lt;div&gt;currSide: CardSide&lt;/div&gt;&lt;div&gt;backSide: CardSide&lt;br&gt;&lt;/div&gt;&lt;div&gt;flip()&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="325" y="270" width="150" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="vxuCkzHxp4fSkfn-FGB5-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="Htw38UbW4cMCED8sRSsI-6">
+        <mxCell id="vxuCkzHxp4fSkfn-FGB5-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" target="Htw38UbW4cMCED8sRSsI-6" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="160" y="380" as="sourcePoint" />
             <mxPoint x="325" y="340" as="targetPoint" />
@@ -79,13 +79,13 @@
         <mxCell id="Htw38UbW4cMCED8sRSsI-19" value="&lt;div&gt;CardSide class&lt;/div&gt;&lt;div&gt;type: Enum CardType{0-9, Draw2, Reverse, Skip, Wild, WildDraw4} (+flip)&lt;br&gt;&lt;/div&gt;&lt;div&gt;color: Enum CardColor{...} (+flip)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="185" y="380" width="430" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="vxuCkzHxp4fSkfn-FGB5-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vxuCkzHxp4fSkfn-FGB5-1" target="Htw38UbW4cMCED8sRSsI-15">
+        <mxCell id="vxuCkzHxp4fSkfn-FGB5-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="vxuCkzHxp4fSkfn-FGB5-1" target="Htw38UbW4cMCED8sRSsI-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vxuCkzHxp4fSkfn-FGB5-1" value="&lt;div&gt;HumanPlayer class&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="vxuCkzHxp4fSkfn-FGB5-1" value="&lt;div&gt;HumanPlayer class&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="230" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="vxuCkzHxp4fSkfn-FGB5-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vxuCkzHxp4fSkfn-FGB5-2" target="Htw38UbW4cMCED8sRSsI-15">
+        <mxCell id="vxuCkzHxp4fSkfn-FGB5-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="vxuCkzHxp4fSkfn-FGB5-2" target="Htw38UbW4cMCED8sRSsI-15" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="240" y="310" />
@@ -93,16 +93,16 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="vxuCkzHxp4fSkfn-FGB5-2" value="&lt;div&gt;BotPlayer&lt;/div&gt;&lt;div&gt;&lt;div&gt;playCard(int ind) //ind will not be used&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="vxuCkzHxp4fSkfn-FGB5-2" value="&lt;div&gt;BotPlayer&lt;/div&gt;&lt;div&gt;&lt;div&gt;playCard(int ind) //ind will not be used&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="180" y="230" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="vxuCkzHxp4fSkfn-FGB5-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vxuCkzHxp4fSkfn-FGB5-14" target="vxuCkzHxp4fSkfn-FGB5-15">
+        <mxCell id="vxuCkzHxp4fSkfn-FGB5-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="vxuCkzHxp4fSkfn-FGB5-14" target="vxuCkzHxp4fSkfn-FGB5-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vxuCkzHxp4fSkfn-FGB5-14" value="&lt;div&gt;abstract CardEffect class&lt;/div&gt;applyEffect(GameState)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="vxuCkzHxp4fSkfn-FGB5-14" value="&lt;div&gt;abstract CardEffect class&lt;/div&gt;applyEffect(GameState)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="60" y="500" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="vxuCkzHxp4fSkfn-FGB5-15" value="&lt;div&gt;SkipTurnEffect class&lt;/div&gt;&lt;div&gt;ReverseEffect class etc.&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="vxuCkzHxp4fSkfn-FGB5-15" value="&lt;div&gt;SkipTurnEffect class&lt;/div&gt;&lt;div&gt;ReverseEffect class etc.&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="60" y="580" width="150" height="60" as="geometry" />
         </mxCell>
       </root>
